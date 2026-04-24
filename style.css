@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #111;
+    color: white;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background: black;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo span {
+    color: gold;
+}
+
+.hero {
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.dark {
+    background: #222;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    background: gold;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+}
